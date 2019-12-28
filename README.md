@@ -1,1 +1,1 @@
-This is an sample app that follow MVVM and databinding . 
+This is an sample app that follow MVVM and databinding .
