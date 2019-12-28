@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/AndroidMVVMz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MVVM-DataBinding-With-LiveData-Login" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SinsOfMemoryLeaks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TicTacToe-MVVM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-DataBinding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-mvp-architecture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-mvvm-sample-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/androidmvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/avoid-memory-leak-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/clean-architecture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data-binding" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/koodak" vcs="Git" />
+  </component>
+</project>
