@@ -1,4 +1,4 @@
-package com.example.t1;
+package com.example.t1.model;
 
 public class Player {
 

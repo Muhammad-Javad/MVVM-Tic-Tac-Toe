@@ -7,14 +7,14 @@
 
         <variable
             name="viewmodel"
-            type="com.example.t1.GameViewModel" />
+            type="com.example.t1.viewmodel.GameViewModel" />
 
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".view.MainActivity">
 
         <Button
             android:text="@{viewmodel.cells[`00`].value}"

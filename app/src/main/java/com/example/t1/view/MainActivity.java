@@ -1,16 +1,18 @@
-package com.example.t1;
+package com.example.t1.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
-import android.text.Layout;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.t1.R;
 import com.example.t1.databinding.ActivityMainBinding;
+import com.example.t1.model.GameBoard;
+import com.example.t1.model.Player;
+import com.example.t1.viewmodel.GameFactory;
+import com.example.t1.viewmodel.GameViewModel;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,9 +1,11 @@
-package com.example.t1;
+package com.example.t1.viewmodel;
 
 import androidx.databinding.ObservableArrayMap;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.t1.model.GameBoard;
+import com.example.t1.model.Player;
 
 public class GameViewModel extends ViewModel {
 

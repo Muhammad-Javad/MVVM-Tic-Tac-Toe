@@ -1,4 +1,4 @@
-package com.example.t1;
+package com.example.t1.model;
 
 import android.util.Log;
 
@@ -11,11 +11,11 @@ public class GameBoard {
     public static final Player NO_ONE = new Player("No One", "-");
     private static final String TAG = GameBoard.class.getName();
 
-    Cell[][] cells;
-    Player currentPlayer;
+    public Cell[][] cells;
+    public Player currentPlayer;
     Player player1;
     Player player2;
-    MutableLiveData<Player> winner;
+    public MutableLiveData<Player> winner;
     int remainder;
 
     public GameBoard(Player player1, Player player2) {

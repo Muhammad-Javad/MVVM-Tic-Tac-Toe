@@ -1,8 +1,10 @@
-package com.example.t1;
+package com.example.t1.viewmodel;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.example.t1.model.GameBoard;
 
 public class GameFactory implements ViewModelProvider.Factory {
 
