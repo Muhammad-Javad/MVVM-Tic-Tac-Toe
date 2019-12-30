@@ -6,7 +6,7 @@ a copy of this
 
 |           | description                                                       |example         |
 |:------    |:------                                                            |:------            |
-|  view     |  This is a component that user can interact with it .             |Activity, Fragment|
+|  View     |  This is a component that user can interact with it .             |Activity, Fragment|
 |  ViewModel|  This is a component that you can put your business logic here .  |                   |
-|  view     |  This is a component that you make your model here .              |                   |
+|  Model    |  This is a component that you make your model here .              |                   |
 
