@@ -35,6 +35,7 @@ public class GameBoard {
         cells = new Cell[WIDTH_SIZE][HEIGHT_SIZE];
         currentPlayer = this.player1;
         remainder = WIDTH_SIZE * HEIGHT_SIZE;
+        winner = new MutableLiveData<>();
     }
 
     public boolean winnerCheck(Cell... cells) {
@@ -82,21 +83,17 @@ public class GameBoard {
 
     public void addPlayerCell(int row, int column) {
         cells[row][column] = new Cell(currentPlayer);
-        currentPlayer = currentPlayer == player1 ? player2 : player1;
         remainder -= 1;
         if (VerticalWinner()) {
             winner.postValue(currentPlayer);
-            reset();
         } else if (HorizantalWinner()) {
             winner.postValue(currentPlayer);
-            reset();
         } else if (DiagonalWinner()) {
             winner.postValue(currentPlayer);
-            reset();
         } else if (remainder == 0) {
             winner.postValue(NO_ONE);
-            reset();
         }
+        currentPlayer = currentPlayer == player1 ? player2 : player1;
         Log.i(TAG, "remainder : " + remainder);
     }
 
