@@ -20,6 +20,13 @@ public class GameViewModel extends ViewModel {
     public GameBoard game;
     public ObservableArrayMap<String, Player> cells;
 
+    public GameViewModel(GameBoard game) {
+
+        this.game = game;
+        cells = new ObservableArrayMap<>();
+
+    }
+
     public void onCellClick(String key){
         int row = Integer.parseInt(String.valueOf(key.charAt(0)));
         int column = Integer.parseInt(String.valueOf(key.charAt(1)));
@@ -29,11 +36,6 @@ public class GameViewModel extends ViewModel {
         }
         display();
         DisplayLogic();
-    }
-
-    public void init(GameBoard game){
-        this.game = game;
-        cells = new ObservableArrayMap<>();
     }
 
     public void clearCells(){

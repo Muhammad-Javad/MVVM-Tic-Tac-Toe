@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
         //Binding
         mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         //ViewModel
-        mViewModel = ViewModelProviders.of(this).get(GameViewModel.class);
-        if(mViewModel.cells == null && mViewModel.game == null){
-            mViewModel.init(new GameBoard(player1, player2));
-        }
+        mViewModel = ViewModelProviders
+                .of(this
+                        , new GameFactory(new GameBoard(player1, player2)))
+                .get(GameViewModel.class);
         mViewModel.getWinner().observe(this, this::checkWinner);
         mainBinding.setViewmodel(mViewModel);
 
