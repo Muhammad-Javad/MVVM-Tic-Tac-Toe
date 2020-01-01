@@ -10,5 +10,5 @@ a copy of this
 |  ViewModel|  This is a component that you can put your business logic here .  |                   |
 |  Model    |  This is a component that you make your model here .              |                   |
 
-![image1](/Screenshots/photo_2020-01-01_16-58-03.jpg)
-![image1](/Screenshots/photo_2020-01-01_16-58-05.jpg)
+![image 1](/Screenshots/photo_2020-01-01_16-58-03.jpg)
+![image 2](/Screenshots/photo_2020-01-01_16-58-05.jpg)
